@@ -10,26 +10,17 @@
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">About <i class="fa fa-address-book"></i></div>
 <div style="background-color: white; padding:35px; font-size: 30px;">
-BTech Days
+Kishan Musale
 <br>
 Hey everyone!!
 <br>
-I make free programming tutorials for beginners.
-& PROJECT videos with source code.
-That include Java for beginners,c# (Dot net tutorial), JFrame,JDBC,Jsp,etc
+I have Completed this project for online shopping.
 <br>
-We make videos of :-
-DBMS
-COMPUTER NETWORKING 
-BPM
-OS, etc
-So kindly subscribe our channel.
+My Education background is B.tech CSE.
 <br>
-Contact us at :- btechdays.care@gmail.com
+Contact us at :-kishanmusale@gmail.com
 <br>
-or
-<br>
-contact us at instagram :- btechdays
+contact us at instagram :- kishacm
 </div>
 
 </body>

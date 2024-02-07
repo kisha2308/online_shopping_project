@@ -9,22 +9,24 @@
     <!--Header-->
     <br>
     <div class="topnav sticky">
-    
-            <center><h2>Online shopping (BTech Days)</h2></center>
-            <h2><a href=""> <i class='fas fa-user-alt'></i></a></h2>
-            <a href="">Home<i class="fa fa-institution"></i></a>
-            <a href="">My Cart<i class='fas fa-cart-arrow-down'></i></a>
-            <a href="">My Orders  <i class='fab fa-elementor'></i></a>
-            <a href="">Change Details <i class="fa fa-edit"></i></a>
-            <a href="">Message Us <i class='fas fa-comment-alt'></i></a>
-            <a href="">About <i class="fa fa-address-book"></i></a>
-            <a href="">Logout <i class='fas fa-share-square'></i></a>
+    <%  String  email =session.getAttribute("email").toString();  %>
+            <center><h2>Online shopping</h2></center>
+            <h2><a href=""><%out.println(email); %> <i class='fas fa-user-alt'></i></a></h2>
+            <a href="home.jsp">Home<i class="fa fa-institution"></i></a>
+            <a href="myCart.jsp">My Cart<i class='fas fa-cart-arrow-down'></i></a>
+            <a href="myOrders.jsp">My Orders  <i class='fab fa-elementor'></i></a>
+            <a href="changeDetails.jsp">Change Details <i class="fa fa-edit"></i></a>
+            <a href="messageUs.jsp">Message Us <i class='fas fa-comment-alt'></i></a>
+            <a href="about.jsp">About <i class="fa fa-address-book"></i></a>
+            <a href="logout.jsp">Logout <i class='fas fa-share-square'></i></a>
             <div class="search-container">
-             
-               
-                <i class="fa fa-search"></i>
-             
+             <form action="searchHome.jsp" method="post">
+             <input type="text" placeholder="search" name="search" width="80px">
+             <button type="submit" style="width: 70px;height: 30px;background-color: red; margin-left: 20px "><i class="fa fa-search"></i></button>
+             </form>
+              
             </div>
           </div>
            <br>
            <!--table-->
+</html>
